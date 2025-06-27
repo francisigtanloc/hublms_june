@@ -194,7 +194,7 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#charts">
               <i class="far fa-chart-bar"></i>
-              <p>Charts</p>
+              <p>Profile</p>
               <span class="caret"></span>
             </a>
             <div id="charts" class="collapse">
