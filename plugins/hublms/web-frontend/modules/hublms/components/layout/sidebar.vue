@@ -54,12 +54,12 @@
             <span class="sidebar-mini-icon">
               <i class="fa fa-ellipsis-h"></i>
             </span>
-            <h4 class="text-section">Components</h4>
+            <h4 class="text-section">Student Tools</h4>
           </li>
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#base">
               <i class="fas fa-layer-group"></i>
-              <p>Base</p>
+              <p>Courses</p>
               <span class="caret"></span>
             </a>
             <div id="base" class="collapse">
@@ -115,7 +115,7 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#sidebarLayouts">
               <i class="fas fa-th-list"></i>
-              <p>Sidebar Layouts</p>
+              <p>Questions</p>
               <span class="caret"></span>
             </a>
             <div id="sidebarLayouts" class="collapse">
@@ -136,7 +136,7 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#forms">
               <i class="fas fa-pen-square"></i>
-              <p>Forms</p>
+              <p>Assignments</p>
               <span class="caret"></span>
             </a>
             <div id="forms" class="collapse">
@@ -152,7 +152,7 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#tables">
               <i class="fas fa-table"></i>
-              <p>Tables</p>
+              <p>Certificates</p>
               <span class="caret"></span>
             </a>
             <div id="tables" class="collapse">
@@ -173,7 +173,7 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#maps">
               <i class="fas fa-map-marker-alt"></i>
-              <p>Maps</p>
+              <p>Badges</p>
               <span class="caret"></span>
             </a>
             <div id="maps" class="collapse">
