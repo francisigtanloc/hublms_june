@@ -6,9 +6,4 @@ export const routes = [
     path: '/starting',
     component: path.resolve(__dirname, 'pages/starting.vue'),
   },
-  {
-    name: 'courses',
-    path: '/courses',
-    component: path.resolve(__dirname, 'pages/courses.vue'),
-  },
 ]
