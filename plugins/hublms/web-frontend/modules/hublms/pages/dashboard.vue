@@ -1241,33 +1241,38 @@ export default {
     Sidebar,
   },
   data() {
-    return {}
+    return {
+      selectedCourse: null,
+      activeCourses: 0,
+      draftCourses: 0,
+      archivedCourses: 0
+    }
   },
   head() {
     return {
       script: [
         {
-          src: './assets/js/core/jquery-3.7.1.min.js',
+          src: '/js/core/jquery-3.7.1.min.js',
           body: true,
         },
         {
-          src: './assets/js/core/popper.min.js',
+          src: '/js/core/popper.min.js',
           body: true,
         },
         {
-          src: './assets/js/core/bootstrap.min.js',
+          src: '/js/core/bootstrap.min.js',
           body: true,
         },
         {
-          src: './assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js',
+          src: '/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js',
           body: true,
         },
         {
-          src: './assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js',
+          src: '/js/plugin/jquery.sparkline/jquery.sparkline.min.js',
           body: true,
         },
-        { src: './assets/js/kaiadmin.min.js', body: true },
-        { src: './assets/js/demo.js', body: true },
+        { src: '/js/kaiadmin.min.js', body: true },
+        { src: '/js/demo.js', body: true },
       ],
     }
   },

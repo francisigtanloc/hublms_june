@@ -13,5 +13,5 @@ export default function () {
   this.appendPlugin({
     src: path.resolve(__dirname, 'plugin.js'),
   })
-  this.options.css.push(path.resolve(__dirname, 'assets/scss/default.scss'))
+  // this.options.css.push(path.resolve(__dirname, 'assets/scss/default.scss'))
 }
