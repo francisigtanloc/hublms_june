@@ -8,6 +8,5 @@ urlpatterns = [
     re_path(r"starting/$", StartingView.as_view(), name="starting"),
     re_path(r'example/$', ExampleView.as_view(), name='example'),
     re_path(r'courses/$', CoursesView.as_view(), name='courses'),
-    re_path(r'course_landing/$', CoursesView.as_view(), name='course_landing'),
 
 ]
